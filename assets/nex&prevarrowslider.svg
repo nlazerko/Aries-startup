@@ -1,0 +1,27 @@
+<svg width="182" height="16" viewBox="0 0 182 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="182" height="16" fill="#F5F5F5"/>
+<g id="ARIES HOME PAGE" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="8014" transform="translate(-1119 -7148)" fill="#1D1D1D"/>
+<g id="Pattern">
+</g>
+<g id="Insights">
+<g id="nex &#38; prev arrow">
+<path id="Arrow 11" opacity="0.4" d="M0.292893 7.29289C-0.0976311 7.68342 -0.0976311 8.31658 0.292893 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928932C7.68054 0.538408 7.04738 0.538408 6.65685 0.928932L0.292893 7.29289ZM1 9H51V7H1V9Z" fill="url(#paint0_linear_0_1)"/>
+<path id="Arrow 12" d="M81 7H80V9H81V7ZM181.707 8.70711C182.098 8.31658 182.098 7.68342 181.707 7.29289L175.343 0.928932C174.953 0.538408 174.319 0.538408 173.929 0.928932C173.538 1.31946 173.538 1.95262 173.929 2.34315L179.586 8L173.929 13.6569C173.538 14.0474 173.538 14.6805 173.929 15.0711C174.319 15.4616 174.953 15.4616 175.343 15.0711L181.707 8.70711ZM81 9H181V7H81V9Z" fill="url(#paint1_linear_0_1)"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_1" x1="1" y1="8" x2="51" y2="8" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5CE4CF" stop-opacity="0.3"/>
+<stop offset="1" stop-color="#99A9FF" stop-opacity="0.9"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_1" x1="81" y1="8" x2="181" y2="8" gradientUnits="userSpaceOnUse">
+<stop stop-color="#99A9FF"/>
+<stop offset="1" stop-color="#5CE4CF"/>
+</linearGradient>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="8014" fill="white" transform="translate(-1119 -7148)"/>
+</clipPath>
+</defs>
+</svg>
