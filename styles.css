@@ -501,22 +501,28 @@ body {
 }
 .sixth__content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
-  gap: 100px;
+  align-items: center;
+  gap: 120px;
   margin-left: 65px;
 }
-.top__row,
-.bottom__row {
+.sixth__content-column {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  gap: 120px;
   align-items: center;
+  gap: 100px;
+}
+.last__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 114px;
+  margin-top: 35px;
 }
 
-.four {
-  margin-top: 25px;
-}
 /* <---------------springs----------------> */
 
 .left__vector {
