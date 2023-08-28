@@ -1,6 +1,6 @@
-/* * {
+* {
   box-sizing: border-box;
-} */
+}
 /* html {
   width: 100%;
 } */
@@ -151,13 +151,13 @@ body {
   text-transform: capitalize;
 }
 
-.scroll__arrow__container {
+/* .scroll__arrow__container {
   display: flex;
   justify-content: center;
   border: none;
   background-color: transparent;
   cursor: pointer;
-}
+} */
 .scroll__arrow {
   display: flex;
   justify-content: center;
@@ -168,7 +168,6 @@ body {
   border: none;
   background-color: transparent;
   cursor: pointer;
-  overflow: hidden;
 }
 
 /* -----------------second container------------ */
@@ -984,12 +983,18 @@ body {
 .second__arrow {
 }
 .right__arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: none;
   background-color: transparent;
   cursor: pointer;
-  overflow: hidden;
+  padding: 0;
 }
 .slider__arrow {
+  width: 100%;
+  border: none;
+  margin: 0;
 }
 
 /* --------------------------------ideas__container--------------------------------- */
