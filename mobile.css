@@ -1,8 +1,8 @@
 @media (max-width: 426px) {
   .wrapper {
-    position: relative;
+    position: absolute;
     max-width: 500px;
-    /* min-width: 320px; */
+    min-width: 320px;
     width: 100%;
 
     margin: 0;
@@ -48,6 +48,7 @@
   .menu__right {
     position: absolute;
     top: 40%;
+    left: 90%;
     width: 20px;
     height: auto;
   }
@@ -87,9 +88,9 @@
     display: none;
   }
   .first__right-img {
-    position: absolute;
-    right: -10px;
-    top: 330px;
+    position: static;
+    margin-left: 290px;
+    margin-top: -100px;
     width: 40%;
     height: auto;
   }
@@ -116,7 +117,7 @@
   }
 
   .column__content__container {
-    margin-top: 130px;
+    margin-top: 36px;
   }
 
   .second__container {
@@ -219,8 +220,9 @@
     flex-wrap: wrap;
   }
   .fourth__img {
+    max-width: 390px;
     display: flex;
-    width: 100%;
+    width: 95%;
     height: auto;
     flex-shrink: 0;
   }
@@ -315,8 +317,9 @@
   }
 
   .fifth__img-mobile {
+    max-width: 390px;
     display: flex;
-    width: 100%;
+    width: 95%;
     height: auto;
     flex-shrink: 0;
   }
@@ -390,15 +393,14 @@
     height: auto;
     margin: 0;
     padding-left: 20px;
-
-    flex-wrap: wrap;
+    flex-direction: column;
     margin-top: 100px;
     background-color: #232526;
     padding: 0;
   }
 
   .team__hero {
-    max-width: 500px;
+    max-width: 390px;
     width: 100%;
     height: auto;
     display: flex;
@@ -455,7 +457,7 @@
   }
 
   .team__info {
-    max-width: 425px;
+    max-width: 390px;
     width: 100%;
     height: auto;
     display: flex;
@@ -489,6 +491,7 @@
 
   /* -----------------------JOBS------------------------ */
   .jobs__container {
+    max-width: 390px;
     width: 100%;
     height: auto;
     margin-top: 100px;
@@ -684,6 +687,7 @@
   }
 
   .btns__container {
+    max-width: 390px;
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
@@ -700,7 +704,7 @@
     background-color: transparent;
     cursor: pointer;
     padding: 0;
-    margin-left: 75%;
+    margin-left: 70%;
   }
   .slider__arrow {
     width: 100%;
@@ -723,6 +727,7 @@
     display: none;
   }
   .ideas__container {
+    max-width: 390px;
     width: 100%;
     height: auto;
     flex-shrink: 0;
